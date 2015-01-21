@@ -1,0 +1,38 @@
+{
+    "name": "twee-i18n-extension",
+    "preferGlobal": false,
+    "version": "0.0.1",
+    "author": "Dmitri Mesin <dmitri.mesin@gmail.com>",
+    "homepage": "https://github.com/mesin/twee-i18n-extension",
+    "description": "I18n Middleware Extension for Twee.io Framework - MVC Framework for Node.js and io.js based on Express.js",
+    "license": "MIT",
+    "dependencies": {
+        "i18n": "*"
+    },
+    "devDependencies": {},
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/mesin/twee-i18n-extension.git"
+    },
+    "keywords": [
+        "i18n",
+        "localization",
+        "internationalization",
+        "translation",
+        "twee.io",
+        "framework",
+        "extensions",
+        "modules",
+        "route",
+        "web",
+        "middleware",
+        "mvc",
+        "routes",
+        "rest",
+        "restful",
+        "api"
+    ],
+    "bugs": {
+        "url": "https://github.com/mesin/twee-i18n-extension/issues"
+    }
+}
