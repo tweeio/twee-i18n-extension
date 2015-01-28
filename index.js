@@ -8,9 +8,9 @@ module.exports.extension = function() {
     global.i18n = require('i18n');
 
     var app = twee.getApplication()
-        , initOptions = twee.getConfig('extension:twee-i18n:init');
+        , initOptions = twee.getConfig('twee:extension:twee-i18n:init');
 
-    initOptions["updateFiles"] = (app.get('env') == 'development' && twee.getConfig('extension:twee-i18n:autoUpdate'));
+    initOptions["updateFiles"] = (app.get('env') == 'development' && twee.getConfig('twee:extension:twee-i18n:autoUpdate'));
     i18n.configure(initOptions);
 
     app.use(i18n.init);

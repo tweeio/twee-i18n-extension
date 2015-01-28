@@ -15,3 +15,24 @@ To install it use this command:
 ```
 npm install twee-i18n-extension --save
 ```
+
+
+Editing `package.json` of your application:
+
+```
+"dependencies": {
+    "twee-i18n-extension": "*"
+}
+```
+
+Turning extension `ON` in `application/configs/twee.js`:
+
+```
+module.exports = {
+    "extensions": {
+        "i18n": {
+            "module": "twee-i18n-extension"
+        }
+    }
+};
+```
