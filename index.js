@@ -17,7 +17,8 @@ module.exports.extension = function() {
 
     app.use(function (req, res, next) {
         app.locals.tr = global.tr = res.__;
-        app.locals.i18n = global.i18n = res.i18n;
+        app.locals.tr = global.trn = res.__n;
+        app.locals.i18n = global.i18n = i18n;
         next();
     });
 };
